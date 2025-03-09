@@ -1,3 +1,6 @@
+--Criando o banco de dados
+CREATE DATABASE trabalhobanco;
+
 --Criando tabela de alunos
 CREATE TABLE alunos (
   matricula VARCHAR(30),
