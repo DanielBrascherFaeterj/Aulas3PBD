@@ -22,7 +22,6 @@ DELETE FROM TipoQuarto WHERE IDTipoQuarto = 1;
 INSERT INTO Quarto (IDQuarto, IDTipoQuarto, Numero)
 VALUES (1, 1, 101);
 
--- UPDATE
 UPDATE Quarto
 SET Numero = 102
 WHERE IDQuarto = 1;
