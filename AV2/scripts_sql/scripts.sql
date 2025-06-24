@@ -1,13 +1,11 @@
--- INSERT
+
 INSERT INTO Cliente (IDCliente, Nome, Cpf, Telefone, Email)
 VALUES (1, 'João Silva', '12345678900', '21988887777', 'joao@email.com');
 
--- UPDATE
 UPDATE Cliente
 SET Telefone = '21999998888'
 WHERE IDCliente = 1;
 
--- DELETE
 DELETE FROM Cliente WHERE IDCliente = 1;
 
 INSERT INTO TipoQuarto (IDTipoQuarto, Descricao, Capacidade)
